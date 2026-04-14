@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Join And Watch me</title>
+<title>Join And Watch Me</title>
 
 <style>
 body {
@@ -27,18 +27,21 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
+/* Logo Container */
 .logo {
-    width: 60px;
-    height: 60px;
-    background: #FCA311;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 70px;
+    height: 70px;
     margin: auto;
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #FCA311;
+}
+
+/* Logo Image */
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 h2 {
@@ -79,7 +82,11 @@ p {
 <body>
 
 <div class="card">
-    <div class="785379b9-f46c-4fbe-9487-c90f103ff894.png">TG</div>
+
+    <!-- Logo Image -->
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
 
     <h2>Private Telegram Hub</h2>
     <p>Get daily updates, 18+ reels viral & exclusive content 🔥</p>
@@ -91,6 +98,7 @@ p {
     <div class="footer">
         Limited Access • Free Entry
     </div>
+
 </div>
 
 </body>
